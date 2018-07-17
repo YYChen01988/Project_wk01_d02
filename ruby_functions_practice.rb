@@ -50,3 +50,7 @@ end
 def substring__month(number)
   return month[number][0..2]
 end
+
+def volume_of_cube(r)
+  return r**3
+end

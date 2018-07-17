@@ -46,3 +46,7 @@ def number_to_full_name__month(number)
   }
   return month[number]
 end
+
+def substring__month(number)
+  return month[number][0..2]
+end
